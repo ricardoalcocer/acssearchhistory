@@ -1,0 +1,15 @@
+<Alloy>
+	<Window class="container" layout="vertical" onOpen="doopen">
+		<Menu id="menu" platform="android">
+            <MenuItem id="infoButton" title="Info" icon="Ti.Android.R.drawable.ic_menu_info_details" onClick="showinfo" showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" />
+        </Menu>
+		<View height="40" backgroundColor="black" platform="ios">
+			<Label color="white">Search History Demo</Label>
+			<Button id="infoButton" right="10" color="white">i</Button>
+		</View>	
+		<View layout="vertical">
+			<TextField id="companyTF" hintText="Enter company name" top="20" />
+			<TableView id="companyTV" top="20"/>
+		</View>
+	</Window>
+</Alloy>

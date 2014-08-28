@@ -1,0 +1,6 @@
+<Alloy>
+	<TableViewRow class="companyTVR">
+		<Label id="companyLbl" width="70%" left="10"/>
+		<Label id="symbolLbl" right="10"/>
+	</TableViewRow>
+</Alloy>
